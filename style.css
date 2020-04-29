@@ -1,9 +1,23 @@
 main {
     display: flex;
     justify-content: center;
-    border: 2px solid blue;
+    flex-direction: column;
     width: 600px;
     margin-bottom: 15px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+.bl {
+    border: 2px solid blue;
+}
+
+.pp {
+    border: 2px solid purple;
+    background: orange;
 }
 
 .blue {
@@ -17,5 +31,5 @@ main {
     background: purple;
     height: 40px;
     width: 40px;
-    margin: 10px 10px 10px;
+    margin: 10px 8px 10px;
 }
